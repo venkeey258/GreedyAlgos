@@ -7,8 +7,8 @@ public class ChangeMachine {
     
     public static void main(String[] args) {
 	
-		
-		int amount = 99;
+		Scanner scan = new Scanner(System.in);
+		int amount = scan.nextInt();
 		List<Integer> output  = new ArrayList<Integer>();
 		getMinCoins(amount,output);
 		System.out.println(output);
