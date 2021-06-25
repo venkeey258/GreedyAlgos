@@ -3,7 +3,8 @@ package com.learn.ds.arrays;
 public class ValuesRearrange {
     
     public static void main(String[] args) {
-	int[] arr = {2,4,-6,8,-5,-10};
+	//int[] arr = {2,4,-6,8,-5,-10};
+	int[] arr = {3,1,5,4,2};
 	int j =0;
 	int temp = 0;
 	for(int i =0;i<arr.length;i++)
